@@ -30,5 +30,7 @@
     },
     "clangd.arguments": [
         "--header-insertion=never"
-    ]
+    ],
+    "makefile.configureOnOpen": false,
+    "editor.formatOnSave": false,
 }
