@@ -70,6 +70,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ),
 };
 
+// macos mission control
+const uint16_t PROGMEM combo0[] = { KC_LGUI, LCTL(KC_LEFT), COMBO_END};
+const uint16_t PROGMEM combo1[] = { KC_LGUI, LCTL(KC_RIGHT), COMBO_END};
+
+combo_t key_combos[] = {
+    COMBO(combo0, LCTL(KC_UP)),
+    COMBO(combo1, LCTL(KC_DOWN)),
+};
+
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
 
