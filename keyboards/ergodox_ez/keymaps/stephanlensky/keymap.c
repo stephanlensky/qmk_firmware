@@ -32,7 +32,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_GRAVE,       KC_A,           KC_S,           KC_D,           KC_F,           KC_G,                                                                           KC_H,           KC_J,           KC_K,           KC_L,           KC_SCLN,        KC_QUOTE,
     KC_LSFT,        KC_Z,           KC_X,           KC_C,           KC_V,           KC_B,           KC_F21,                                         KC_MINUS,       KC_N,           KC_M,           KC_COMMA,       KC_DOT,         KC_SLASH,       KC_RSFT,
     KC_LCTL,        KC_LGUI,        KC_LALT,        KC_F17,         KC_F18,                                                                                                         KC_LEFT,        KC_DOWN,        KC_UP,          KC_RIGHT,       MO(2),
-                                                                                                    KC_F16,         KC_DELETE,      KC_VOLU,        KC_VOLD,
+                                                                                                    KC_F16,         KC_DELETE,      KC_VOLD,        KC_VOLU,
                                                                                                                     KC_ENTER,       KC_PGUP,
                                                                                     KC_SPACE,       KC_BSPC,        KC_END,         KC_PGDN,        TG(LYR_SYM),    KC_ENTER
   ),
@@ -43,7 +43,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_GRAVE,       KC_A,           KC_S,           KC_D,           KC_F,           KC_G,                                                                           KC_H,           KC_J,           KC_K,           KC_L,           KC_SCLN,        KC_QUOTE,
     KC_LSFT,        KC_Z,           KC_X,           KC_C,           KC_V,           KC_B,           KC_F21,                                         KC_MINUS,       KC_N,           KC_M,           KC_COMMA,       KC_DOT,         KC_SLASH,       KC_RSFT,
     KC_LGUI,        KC_LALT,        KC_LCTL,        LCTL(KC_LEFT),  LCTL(KC_RIGHT),                                                                                                 KC_LEFT,        KC_DOWN,        KC_UP,          KC_RIGHT,       MO(2),
-                                                                                                    KC_F16,         KC_DELETE,      KC_VOLU,        KC_VOLD,
+                                                                                                    KC_F16,         KC_DELETE,      KC_VOLD,        KC_VOLU,
                                                                                                                     KC_ENTER,       KC_PGUP,
                                                                                     KC_SPACE,       KC_BSPC,        KC_END,         KC_PGDN,        TG(LYR_SYM),    KC_ENTER
   ),
